@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.fondo {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,70,1) 59%, rgba(122,122,122,1) 100%);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    right: 300px;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-links li{
+    padding: 20px;
+}
+
+.nav-links a{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.icons{
+    align-items: center;
+    display: flex;
+    color: darkgoldenrod;
+}   
+
+.icon-user{
+    padding: 9px 25px;
+    position: relative;
+    left: 300px;
+    
+}
+
+.icon-fav{
+    padding: 9px 25px;
+    position: relative;
+    left: 300px;
+   
+}
+
+.icon-cart{
+    padding: 9px 25px;
+    position: relative;
+    left: 300px;
+   
+}
