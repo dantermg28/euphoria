@@ -4,25 +4,18 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.788);
-}
-
-.fondo {
-    width: 100%;
-    height: 350px;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,70,1) 59%, rgba(122,122,122,1) 100%);
+    background-color: rgba(0, 0, 0, 0.993);
 }
 
 .logo{
     width: 100px;
     height: 100px;
-    /* right: 300px;
-    position: relative; */
+    cursor: pointer;
 }
 
 .header{
@@ -31,11 +24,14 @@ body{
     align-items: center;
     height: 100px;
     padding: 5px 10%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,70,1) 59%, rgba(122,122,122,1) 100%);
 }
+
 
 .nav-links{
     display: flex;
     font-size: 20px;
+    color: white;
 }
 
 .nav-links li{
@@ -48,7 +44,6 @@ body{
 
 .icons{
     display: flex;
-    color: #b8860b;
 }   
 
 .icon-user{
@@ -65,13 +60,26 @@ body{
     padding: 9px 25px;
     color: #b8860b;
 }
+ 
+/*======== HERO ======== */
 
 main{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
+}
+
+#hero{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,70,1) 59%, rgba(122,122,122,1) 100%);
+    display: flex;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+   
+    
 }
 
 .titulo-principal{
@@ -79,9 +87,23 @@ main{
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+
+.hero-info{
+    width: 60%;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5;
+    color: white;
 }
 
 .portada{
-    width: 300px;
-    height: 300px;
+    padding-left: 5px;
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,70,1) 59%, rgba(122,122,122,1) 100%);  ;
 }
+
+/* ======== SERVICIOS ======== */
